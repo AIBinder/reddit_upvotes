@@ -5,3 +5,7 @@ To run:
 - streamlit run app.py
 
 Then the app should be accessible under http://localhost:8501.
+
+To train the model on German reddit data, see:
+train_upvotes_gpu_r_edv.py
+(based on deepset gbert model, for English subreddits use English language model accordingly)
